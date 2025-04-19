@@ -1,0 +1,89 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Smooth Scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Navbar Styles */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    z-index: 1000;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.navbar ul li a:hover {
+    background-color: #555;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Scroll Effect on Navbar */
+.navbar.scrolled {
+    background-color: #222;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Styles */
+.section {
+    min-height: 100vh;
+    padding: 100px 20px; /* To accommodate navbar */
+    color: white;
+}
+
+/* Unique Background Colors */
+#home {
+    background-color: #1abc9c; /* Turquoise */
+}
+
+#about {
+    background-color: #3498db; /* Blue */
+}
+
+#services {
+    background-color: #9b59b6; /* Purple */
+}
+
+#contact {
+    background-color: #e74c3c; /* Red */
+}
+
+/* Optional: Headline Shadow for Readability */
+.section h1 {
+    font-size: 3em;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
